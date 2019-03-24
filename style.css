@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #ecf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    display: grid;
+    text-align: center;
+    grid-gap: 1vh;
+}
+
+h1{
+    text-shadow: 1px 1px 3px rgb(66, 66, 66);
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-self: center;
+    padding: 3vh;
+    grid-gap: 1vh;
+    box-shadow: 1px 1px 3px black;
+    border: 20px solid #c0392b;
+}
+
+.card {
+    padding: 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card, img {
+    width: 150px;
+    height: 150px;
+    background-color: #2980b9;
+}
+
+#input{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 3vh;
+}
+
+input, button{
+    height: 4vh;
+}
